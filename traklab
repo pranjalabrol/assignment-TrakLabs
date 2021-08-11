@@ -1,0 +1,24 @@
+CREATE TABLE
+<employees and departments>
+(
+ID,DB(20) NOT NULL UNIQUE,
+EmpName  CHAR(30) NOT NULL,
+AGE int(5)  NOT NULL,
+DepName '[DB Generated], ‘DepName' )
+FROM employees and departments
+INNER JOIN ID
+on ID.DepName = departmentid.DepName
+GROUP BY departmentid,DepName
+ORDER BY DepName
+UPDATE employees SET ID= 'ID_NO' 
+WHERE employee_id=int value(to which be have to change it) 
+AND DepName=String (to which department have to change) 
+DELETE from employee
+ where lastname = 'String';
+DELETE from employee
+  where firstname = 'String';
+  
+  
+  
+  
+  
